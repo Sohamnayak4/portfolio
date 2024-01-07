@@ -1,0 +1,98 @@
+/* Reset default margin and padding for all elements */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply a background color to the body with initial opacity */
+body {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+/* Center header and navigation */
+header, nav {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style the navigation */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Center sections and footer */
+section, footer {
+  width: 100%; /* Set width to 100% */
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+/* Style the image section */
+.image-section {
+  text-align: center;
+}
+
+.image-container img {
+  height: 100px;
+  width: 100px;
+  height: auto;
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style links in sections */
+section a {
+  color: #007BFF;
+  text-decoration: underline;
+}
+
+/* Style project section */
+.project {
+  margin-bottom: 30px;
+}
+
+/* Style project links */
+.project-link {
+  margin-top: 10px;
+}
+
+.project-link strong {
+  margin-right: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
